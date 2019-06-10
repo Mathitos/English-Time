@@ -76,8 +76,8 @@ class _EnglishButtonState extends State<EnglishButton> {
     return Center(
       child: RaisedButton(
         onPressed: _playSound,
-        child:
-            const Text('English MotherFucker', style: TextStyle(fontSize: 20)),
+        child: Image.asset('assets/english-motherfucker-do-you-speak-it.jpg',
+            height: 120.0),
       ),
     );
   }
